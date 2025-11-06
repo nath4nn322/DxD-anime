@@ -1,46 +1,44 @@
-/* ===== ESTILOS EPICOS PARA DxD ===== */
+/* ===== ESTILOS EPICOS PARA DxD - VERSÃO FORÇADA ===== */
 body {
     margin: 0;
     padding: 20px;
     background: linear-gradient(135deg, #8B0000, #4B0082, #000000);
     background-attachment: fixed;
     min-height: 100vh;
-    color: white;
+    color: #FFB6C1 !important; /* ROSA forçado em TODO texto */
     font-family: Arial, sans-serif;
 }
 
 /* TÍTULOS PRINCIPAIS - COM BRILHO ROSA ÉPICO */
 h1 {
-    color: #FF1493; /* Rosa-choque instead of Dourado */
+    color: #FF1493 !important; 
     text-shadow: 
-        2px 2px 4px rgba(0, 0, 0, 0.7), /* Sombra padrão */
-        0 0 10px #FF1493,                /* Brilho interno */
-        0 0 20px #FF69B4;                /* Brilho externo */
+        2px 2px 4px rgba(0, 0, 0, 0.7),
+        0 0 10px #FF1493,
+        0 0 20px #FF69B4 !important;
     font-weight: bold;
 }
 
 /* TÍTULOS SECUNDÁRIOS - BRILHO MAIS SUAVE */
 h2 {
-    color: #FF69B4; /* Rosa médio instead of Vermelho */
+    color: #FF69B4 !important;
     text-shadow: 
-        1px 1px 3px rgba(0, 0, 0, 0.5), /* Sombra padrão */
-        0 0 5px #FF69B4,                 /* Brilho interno */
-        0 0 10px #FF1493;                /* Brilho externo */
+        1px 1px 3px rgba(0, 0, 0, 0.5),
+        0 0 5px #FF69B4,
+        0 0 10px #FF1493 !important;
     margin-top: 25px;
 }
 
-/* PARÁGRAFOS - ROSA CLARO PARA LEITURA */
+/* PARÁGRAFOS - ROSA CLARO */
 p {
-    color: #FFB6C1; /* Rosa clarinho */
+    color: #FFB6C1 !important;
     line-height: 1.6;
     text-align: justify;
-    text-shadow: 0 0 5px rgba(255, 182, 193, 0.3); /* Brilho bem suave */
 }
 
 /* LISTAS - ROSA BEBÊ */
 li {
-    color: #FFC0CB; /* Rosa bebê */
+    color: #FFC0CB !important;
     margin-bottom: 8px;
     line-height: 1.4;
-    text-shadow: 0 0 3px rgba(255, 192, 203, 0.3); /* Brilho suave */
 }
