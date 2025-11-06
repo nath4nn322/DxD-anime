@@ -1,0 +1,37 @@
+/* ===== FUNDO ESTILO HIGH SCHOOL DxD ===== */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, 
+    #8B0000 0%,     /* Vermelho-sangue (Rias) */
+    #4B0082 50%,    /* Roxo profundo (toque demoníaco) */
+    #000000 100%    /* Preto (misterioso) */
+  );
+  background-attachment: fixed;
+  background-size: cover;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #FFFFFF; /* Texto branco para contraste */
+}
+
+/* === Bônus: Efeito de brilho suave para lembrar magia demoníaca === */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    radial-gradient(
+      circle at 20% 80%,
+      rgba(255, 0, 0, 0.15) 0%,
+      transparent 40%
+    ),
+    radial-gradient(
+      circle at 80% 20%,
+      rgba(75, 0, 130, 0.1) 0%,
+      transparent 40%
+    );
+  pointer-events: none;
+  z-index: -1;
+}
