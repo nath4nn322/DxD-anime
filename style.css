@@ -1,3 +1,8 @@
+/* ===== TESTE VERMELHO - REMOVER DEPOIS ===== */
+* {
+    color: red !important;
+}
+
 /* ===== ESTILOS EPICOS PARA DxD - SÓ TÍTULOS ROSAS ===== */
 body {
     margin: 0;
@@ -5,40 +10,40 @@ body {
     background: linear-gradient(135deg, #8B0000, #4B0082, #000000);
     background-attachment: fixed;
     min-height: 100vh;
-    color: white; /* ✅ TEXTOS BRANCOS */
+    color: white !important;
     font-family: Arial, sans-serif;
 }
 
 /* TÍTULOS PRINCIPAIS - COM BRILHO ROSA ÉPICO */
 h1 {
-    color: #FF1493; 
+    color: #FF1493 !important; 
     text-shadow: 
         2px 2px 4px rgba(0, 0, 0, 0.7),
         0 0 10px #FF1493,
-        0 0 20px #FF69B4;
+        0 0 20px #FF69B4 !important;
     font-weight: bold;
 }
 
 /* TÍTULOS SECUNDÁRIOS - BRILHO MAIS SUAVE */
 h2 {
-    color: #FF69B4;
+    color: #FF69B4 !important;
     text-shadow: 
         1px 1px 3px rgba(0, 0, 0, 0.5),
         0 0 5px #FF69B4,
-        0 0 10px #FF1493;
+        0 0 10px #FF1493 !important;
     margin-top: 25px;
 }
 
 /* PARÁGRAFOS - BRANCO PARA MELHOR CONTRASTE */
 p {
-    color: white; /* ✅ BRANCO PURO */
+    color: white !important;
     line-height: 1.6;
     text-align: justify;
 }
 
 /* LISTAS - BRANCO PARA MELHOR CONTRASTE */
 li {
-    color: white; /* ✅ BRANCO PURO */
+    color: white !important;
     margin-bottom: 8px;
     line-height: 1.4;
 }
