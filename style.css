@@ -1,37 +1,30 @@
-/* ===== FUNDO ESTILO HIGH SCHOOL DxD ===== */
+/* ===== ESTILOS EPICOS PARA DxD ===== */
 body {
-  margin: 0;
-  padding: 0;
-  background: linear-gradient(135deg, 
-    #8B0000 0%,     /* Vermelho-sangue (Rias) */
-    #4B0082 50%,    /* Roxo profundo (toque demoníaco) */
-    #000000 100%    /* Preto (misterioso) */
-  );
-  background-attachment: fixed;
-  background-size: cover;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #FFFFFF; /* Texto branco para contraste */
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #8B0000, #4B0082, #000000);
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: white;
+    font-family: Arial, sans-serif;
 }
 
-/* === Bônus: Efeito de brilho suave para lembrar magia demoníaca === */
-body::before {
-  content: "";
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: 
-    radial-gradient(
-      circle at 20% 80%,
-      rgba(255, 0, 0, 0.15) 0%,
-      transparent 40%
-    ),
-    radial-gradient(
-      circle at 80% 20%,
-      rgba(75, 0, 130, 0.1) 0%,
-      transparent 40%
-    );
-  pointer-events: none;
-  z-index: -1;
+h1 {
+    color: #FFD700; /* Dourado da Rias */
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+h2 {
+    color: #FF6B6B; /* Vermelho claro */
+    margin-top: 25px;
+}
+
+li {
+    margin-bottom: 8px;
+    line-height: 1.4;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
 }
