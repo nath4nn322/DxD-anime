@@ -9,22 +9,38 @@ body {
     font-family: Arial, sans-serif;
 }
 
+/* TÍTULOS PRINCIPAIS - COM BRILHO ROSA ÉPICO */
 h1 {
-    color: #FFD700; /* Dourado da Rias */
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    color: #FF1493; /* Rosa-choque instead of Dourado */
+    text-shadow: 
+        2px 2px 4px rgba(0, 0, 0, 0.7), /* Sombra padrão */
+        0 0 10px #FF1493,                /* Brilho interno */
+        0 0 20px #FF69B4;                /* Brilho externo */
+    font-weight: bold;
 }
 
+/* TÍTULOS SECUNDÁRIOS - BRILHO MAIS SUAVE */
 h2 {
-    color: #FF6B6B; /* Vermelho claro */
+    color: #FF69B4; /* Rosa médio instead of Vermelho */
+    text-shadow: 
+        1px 1px 3px rgba(0, 0, 0, 0.5), /* Sombra padrão */
+        0 0 5px #FF69B4,                 /* Brilho interno */
+        0 0 10px #FF1493;                /* Brilho externo */
     margin-top: 25px;
 }
 
-li {
-    margin-bottom: 8px;
-    line-height: 1.4;
-}
-
+/* PARÁGRAFOS - ROSA CLARO PARA LEITURA */
 p {
+    color: #FFB6C1; /* Rosa clarinho */
     line-height: 1.6;
     text-align: justify;
+    text-shadow: 0 0 5px rgba(255, 182, 193, 0.3); /* Brilho bem suave */
+}
+
+/* LISTAS - ROSA BEBÊ */
+li {
+    color: #FFC0CB; /* Rosa bebê */
+    margin-bottom: 8px;
+    line-height: 1.4;
+    text-shadow: 0 0 3px rgba(255, 192, 203, 0.3); /* Brilho suave */
 }
